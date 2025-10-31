@@ -5,12 +5,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;      
+
 }
 
 .banner {
   background-color: #F2F4F1; 
+  overflow: hidden;
 }
 
+/* HEADER */
 
 .header {
   display: flex;
@@ -33,9 +37,8 @@
 
 .menu a {
   text-decoration: none;
-  color: #284139;  
-  font-family: "Quicksand", sans-serif;      
-  font-size: 20px;
+  color: #284139;     
+  font-size: 18px;
   transition: color 0.3s ease;
   font-weight: 700;
 }
@@ -45,7 +48,31 @@
   text-decoration: underline;       
 }
 
+/* HERO */
 .hero p {
   font-family: "Quicksand", sans-serif;
-  
+  font-size: 16px;
+}
+
+.titulo-hero {
+  color: rgba(40, 65, 57, 1);
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.main-button{
+    display: inline-block;
+    background: rgba(128, 144, 118, 1);
+    color: #ffffff;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.main-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
